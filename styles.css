@@ -75,6 +75,12 @@ h1 {
     background-color: white;
     flex: 1 0 31%; /* Adjusted flex basis */
     box-sizing: border-box;
+    transition: background-color 0.3s; /* Smooth transition for background color change */
+}
+
+.product:hover {
+    transform: translateY(-5px); /* Move the box up on hover */
+    background-color: #64b876; /* Change background color on hover */
 }
 
 .product img {
