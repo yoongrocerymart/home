@@ -24,6 +24,23 @@ header {
     height: auto;
 }
 
+.scrolling-text {
+    padding: 10px;
+    background-color: #f8f9fa; /* Background color for scrolling text */
+    overflow: hidden; /* Hide overflow */
+}
+
+.scrolling-text marquee {
+    font-size: 1.2em; /* Adjust font size as needed */
+    color: #000000; /* Text color */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+/* Additional styling for better appearance */
+.scrolling-text marquee:hover {
+    animation-play-state: paused; /* Pause animation on hover */
+}
+
 h1 {
     margin-right: 20px;
 }
@@ -31,11 +48,11 @@ h1 {
 .contact-link {
     color: white;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1em;
     margin-left: 20px;
-    padding: 10px 20px;
+    padding: 6px 5px;
     background-color: #218838;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 .contact-link:hover {
@@ -102,7 +119,7 @@ footer {
     }
 
     .logo {
-        width: 80px; /* Adjust the logo size for tablets */
+        width: 100px; /* Adjust the logo size for tablets */
     }
 
     .contact-link {
@@ -117,7 +134,7 @@ footer {
     }
 
     .logo {
-        width: 60px; /* Adjust the logo size for mobile */
+        width: 80px; /* Adjust the logo size for mobile */
     }
 
     header {
