@@ -69,11 +69,11 @@ h1 {
 .product {
     border: 1px solid #ddd;
     border-radius: 4px;
-    padding: 16px;
+    padding: 10px; /* Reduced padding */
     text-align: center;
-    margin: 10px;
+    margin: 5px; /* Reduced margin */
     background-color: white;
-    flex: 1 0 21%;
+    flex: 1 0 31%; /* Adjusted flex basis */
     box-sizing: border-box;
 }
 
@@ -115,7 +115,7 @@ footer {
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
     .product {
-        flex: 1 0 46%; /* Two items per row on tablets */
+        flex: 1 0 48%; /* Two items per row on tablets */
     }
 
     .logo {
