@@ -24,22 +24,6 @@ header {
     height: auto;
 }
 
-.banner {
-    width: 100%;
-    height: 200px; /* Adjust the height as needed */
-    background-color: #d3d3d3; /* Light grey background */
-    display:contents;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px; /* Space below the banner */
-}
-
-.banner-image {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-}
-
 .scrolling-text {
     padding: 10px;
     background-color: #f8f9fa; /* Background color for scrolling text */
@@ -91,6 +75,12 @@ h1 {
     background-color: white;
     flex: 1 0 31%; /* Adjusted flex basis */
     box-sizing: border-box;
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.product:hover {
+    transform: translateY(-5px); /* Move the box up on hover */
+    background-color: #58c268; /* Change background color on hover */
 }
 
 .product img {
@@ -100,7 +90,7 @@ h1 {
 }
 
 .product h2 {
-    font-size: 1.5zem;
+    font-size: 1em;
     margin: 10px 0;
 }
 
