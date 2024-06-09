@@ -20,8 +20,26 @@ header {
 
 .logo {
     margin-right: 10px;
-    width: 100px; /* Adjust the width as needed */
+    width: 110px;
     height: auto;
+}
+
+h1 {
+    margin-right: 20px;
+}
+
+.contact-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2 em;
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #218838;
+    border-radius: 5px;
+}
+
+.contact-link:hover {
+    background-color: #1e7e34;
 }
 
 .container {
@@ -56,4 +74,71 @@ header {
 .product p {
     font-size: 1em;
     margin: 10px 0;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.address-section {
+    margin-top: 20px;
+}
+
+.address-section h2 {
+    margin-top: 0;
+}
+
+.address-section p {
+    margin: 5px 0;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .product {
+        flex: 1 0 46%; /* Two items per row on tablets */
+    }
+
+    .logo {
+        width: 80px; /* Adjust the logo size for tablets */
+    }
+
+    .contact-link {
+        font-size: 0.9em;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product {
+        flex: 1 0 46%; /* Two items per row on mobile */
+    }
+
+    .logo {
+        width: 60px; /* Adjust the logo size for mobile */
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    .logo-container {
+        flex-direction: column;
+    }
+
+    .logo-container h1 {
+        margin-top: 10px;
+    }
+
+    .contact-link {
+        margin-top: 10px;
+    }
+
+    .address-section p {
+        width: 90%;
+        max-width: 300px;
+        margin: 5px auto; /* Center the address text on mobile */
+    }
 }
