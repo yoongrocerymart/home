@@ -31,7 +31,7 @@ h1 {
 .contact-link {
     color: white;
     text-decoration: none;
-    font-size: 1.2 em;
+    font-size: 1.2em;
     margin-left: 20px;
     padding: 10px 20px;
     background-color: #218838;
@@ -56,7 +56,7 @@ h1 {
     text-align: center;
     margin: 10px;
     background-color: white;
-    flex: 1 0 21%; /* Adjusts the basis for flex items */
+    flex: 1 0 21%;
     box-sizing: border-box;
 }
 
@@ -113,7 +113,7 @@ footer {
 
 @media (max-width: 480px) {
     .product {
-        flex: 1 0 46%; /* Two items per row on mobile */
+        flex: 1 0 48%; /* Two items per row on mobile */
     }
 
     .logo {
