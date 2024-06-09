@@ -31,7 +31,7 @@ header {
 }
 
 .scrolling-text marquee {
-    font-size: 1.2em; /* Adjust font size as needed */
+    font-size: 1em; /* Adjust font size as needed */
     color: #000000; /* Text color */
     white-space: nowrap; /* Prevent line breaks */
 }
