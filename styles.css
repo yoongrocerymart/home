@@ -118,11 +118,28 @@ footer {
     margin: 5px 0;
 }
 
+.social-link {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.social-logo {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-link:hover .social-logo {
+    transform: scale(1.1); /* Slightly increase the size on hover */
+}
+
 .map-container {
     width: 100%;
     padding: 0;
     margin: 0;
 }
+
+
 
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
