@@ -59,6 +59,14 @@ h1 {
     background-color: #1e7e34;
 }
 
+.section-title {
+    text-align: center;     /* Center the text */
+    font-size: 2em;         /* Adjust the font size */
+    margin: 20px 0;         /* Add some vertical margin */
+    color: #333;            /* Set the text color */
+    font-weight: bold;      /* Make the text bold */
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -138,8 +146,6 @@ footer {
     padding: 0;
     margin: 0;
 }
-
-
 
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
