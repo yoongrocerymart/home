@@ -24,6 +24,11 @@ header {
     height: auto;
 }
 
+.slogan {
+    margin: 0;
+    font-size: 1em;
+    color: #ccc; /* Adjust the color as needed */
+}
 .scrolling-text {
     padding: 10px;
     background-color: #f8f9fa; /* Background color for scrolling text */
