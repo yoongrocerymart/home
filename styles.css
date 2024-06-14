@@ -216,7 +216,7 @@ footer {
 
 @media (max-width: 480px) {
     .product {
-        flex: 1 0 45%; /* Two items per row on mobile */
+        flex: 1 0 40%; /* Two items per row on mobile */
     }
 
     .logo {
