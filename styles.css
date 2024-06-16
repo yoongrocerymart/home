@@ -217,6 +217,7 @@ footer {
 @media (max-width: 480px) {
     .product {
         flex: 1 0 40%; /* Two items per row on mobile */
+        margin: 10px 0; 
     }
 
     .logo {
@@ -260,4 +261,19 @@ footer {
         width: 100%;
         text-align: center;
     }
+
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+        display:block;
+        padding: 10px 20px;
+        
+    }
+
+    .navigation a {
+        margin: 10px 20px; /* Increase the margin between links */
+       
+    }
+
+
 }
